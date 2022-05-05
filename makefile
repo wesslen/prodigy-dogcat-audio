@@ -13,6 +13,7 @@ install:
 
 download:
 	wget https://zenodo.org/record/3563990/files/barkmeow_v0.2.tar.gz
+	mkdir data
 	tar xvzf barkmeow_v0.2.tar.gz -C data
 	rm -rf barkmeow_v0.2.tar.gz
 	cp data/barkmeow/cat/*.wav data
